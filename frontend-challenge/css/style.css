@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    
+}
+
+.container{
+    background-color: hsl(244, 38%, 16%);
+    margin: 10% auto;
+}
+
+.seller{
+    padding: 3% 10% 0 7%; 
+}
+
+
+.first-heading{
+    margin-bottom: 7%;
+    font-size: 40px;
+    font-family: "inter-bold", sans-serif;
+}
+
+/* heading color */
+.heading-color{
+    color:hsl(0, 0%, 100%);
+}
+
+
+.all-feature{
+    padding: 17% 3% 15% 0;
+}
+
+/* paragraph coloring */
+.violet{
+    color: hsl(277, 64%, 61%);
+}
+
+.discover{
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.feature-p{
+    color:hsla(0, 0%, 100%, 0.6);
+}
+
+
+/* paragraf font */
+.all-p{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.img-fluid{
+    background-color: green;
+    margin-left: 5%;
+}
+
+
+@media (max-width: 1028px){
+    .container{
+        /* position: absolute; */
+    }
+
+
+    .img-fluid{
+      /* margin: auto auto; */
+      width: 100%;
+      position: absolute;
+      top: -50px;
+      left: -23px;
+    }
+
+    .seller{
+        position: absolute;
+        top: 400px;
+        text-align: center;
+    }
+
+    .feature{
+        /* margin-top: 30px; */
+        padding: 5% 3% 3% 2%;
+    }
+
+    .first-heading{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 38px;
+    }
+
+}
